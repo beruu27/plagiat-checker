@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cek Plagiat Skripsi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Cek Plagiat Skripsi</h1>
+    <form id="uploadForm">
+      <label for="skripsi">Upload Skripsi (.pdf/.docx)</label>
+      <input type="file" name="skripsi" accept=".pdf,.docx,.txt" required />
+
+      <label for="referensi">Upload Referensi (.pdf/.docx)</label>
+      <input type="file" name="referensi" accept=".pdf,.docx,.txt" required />
+
+      <button type="submit">Cek Sekarang</button>
+    </form>
+    <div id="hasil" class="hasil-box"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
